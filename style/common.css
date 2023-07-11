@@ -1,0 +1,13 @@
+:root {
+    --dark-blue: #4A607A;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1165px;
+    margin: 0 auto;
+    font-family: "Roboto", sans-serif;
+}
