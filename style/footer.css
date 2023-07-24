@@ -1,0 +1,140 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    background: #4A607A;
+
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section__ul {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    width: 160px;
+}
+
+
+.footer-section__link {
+    text-decoration: none;
+
+    color: inherit;
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.footer-section__li {
+    color: #FFF;
+    border-bottom: 1px solid #ffffff00;
+}
+
+.footer-section__li:hover {
+    color: #DDD0A4;
+    border-bottom: 1px solid #DDD0A4;
+}
+
+.footer-section {
+    padding: 83px 0 32px;
+
+
+}
+
+.footer-lineal {
+    height: 1px;
+    background: #9C9C9C;
+    width: 100%;
+}
+
+.footer-text {
+    color: #9C9C9C;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 18px 0px 26px;
+}
+
+.footer-adress__text {
+    width: 272px;
+    color: #FFF;
+    font-style: normal;
+    font-size: 18px;
+
+    font-weight: 300;
+    line-height: 27px;
+    /* 150% */
+}
+
+.footer__how-find {
+    width: 100%;
+    margin-top: auto;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+
+    color: #0D1C41;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid #4A607A;
+    background: #FFF;
+    box-shadow: 0px 2px 18px 0px rgba(0, 0, 0, 0.10);
+}
+
+.footer-telefon__text {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.footer-telefon__number {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.footer-email__link {
+    color: #98a0a8;
+}
+
+.footer-social {
+    display: flex;
+    margin-top: auto;
+    gap: 20px;
+    height: 61.25px;
+    align-items: center;
+}
+
+.link__circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+
+.footer-contact,
+.footer-adress {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+}
