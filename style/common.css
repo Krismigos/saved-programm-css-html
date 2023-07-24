@@ -11,3 +11,11 @@
     margin: 0 auto;
     font-family: "Roboto", sans-serif;
 }
+
+.section-title {
+    font-size: 48px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 72px;
+    color: #fff;
+}

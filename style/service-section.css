@@ -1,0 +1,166 @@
+.servicepakete {
+    margin-top: 50px;
+}
+
+.offers-container {
+    display: flex;
+    margin-top: 49px;
+    position: relative;
+    justify-content: space-between;
+}
+
+.black-box {
+    display: flex;
+    justify-content: center;
+    padding: 49px;
+    height: 169px;
+    border-radius: 10px;
+    background-color: rgba(74, 96, 122, 1);
+
+}
+
+.gold-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    height: 169px;
+    border-radius: 10px;
+    background-color: rgba(168, 144, 96, 1);
+}
+
+.sub-title {
+
+    margin: 4px 0 39px 0;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 18px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+
+
+}
+
+.card-text {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.offers-list {
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 21px;
+    list-style: none;
+}
+
+.white-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    height: 900px;
+    padding: 40px;
+    top: -43px;
+    width: 365px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 18px 0px rgba(41, 41, 41, 0.1);
+
+}
+
+.offer-items {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    min-height: 700px;
+}
+
+
+.offer-price {
+    font-size: 24px;
+    font-style: normal;
+    line-height: 28px;
+    padding: 20px 0px;
+}
+
+.offers-list {
+    height: 42px;
+}
+
+.offer-list__menu {
+    display: flex;
+    align-items: center;
+}
+
+.drop__window:hover .offer-list__arrow,
+.drop__window:focus .offer-list__arrow {
+    transform: rotate(180deg);
+}
+
+.offer-buy {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+
+    padding: 20px 75px;
+    border-radius: 6px;
+    border: 1px;
+
+    border-radius: 6px;
+    border: 1px solid var(--color-2, #4A607A);
+    background: var(--color-body, #FFF);
+    cursor: pointer;
+    /* norm */
+    box-shadow: 0px 2px 18px 0px rgba(41, 41, 41, 0.10);
+
+}
+
+.offers-sublist {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 5px 0 0 50px;
+}
+
+.offers-sublist__items {
+    list-style: disc;
+}
+
+.drop__window {
+    height: 20px;
+    overflow: hidden;
+    transition: height 0.2s ease;
+
+
+}
+
+.drop__window:hover,
+.drop__window:focus {
+
+    height: 92px;
+    transition: height 0.2s ease;
+}
+
+.offer-price__action {
+    color: var(--text-error, #DC0000);
+    font-size: 24px;
+    font-weight: 100;
+    line-height: normal;
+}
+
+.offer-price__action::before {
+    content: 'Супер ціна';
+    margin-right: 34px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    color: rgba(220, 0, 0, 1);
+
+
+}

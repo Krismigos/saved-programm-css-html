@@ -3,7 +3,7 @@
     background-color: #566a82;
 }
 
-.section-title {
+.section-title__white {
     font-size: 48px;
     font-weight: normal;
     text-align: center;
@@ -42,3 +42,4 @@
     font-style: normal;
     font-size: 14px;
 }
+

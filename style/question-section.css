@@ -69,3 +69,11 @@
     background: center url(../img/arrow_down_black.png);
     background-size: cover;
 }
+
+
+.faq-list__item:nth-child(even) .faq-list__question:before {
+    content: "";
+    height: 1px;
+    width: 34px;
+    background-color: black;
+}
