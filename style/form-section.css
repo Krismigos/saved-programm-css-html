@@ -51,36 +51,31 @@
     background-position: 324px;
 }
 
-.city__option {
-    font-size: 14px;
-}
-
 .form__buttons {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    height: 59px;
-    gap: 75px;
     margin: 0 auto;
+    gap: 75px;
 }
 
 .button {
     text-transform: uppercase;
     font-size: 16px;
-    font-weight: 400;
     line-height: 19px;
     cursor: pointer;
     background: none;
-    border: none;
+
+
+    transition: 1ms;
+    font-weight: 600;
+    padding: 20px 30px;
+    border-radius: 6px;
+    border: 1px solid rgba(74, 96, 122, 1);
+    box-shadow: 0px 2px 18px 0px rgba(41, 41, 41, 0);
 }
 
 .button:hover {
-    transition: 0.5s;
-    font-weight: 600;
-    padding: 20px 63px;
-    border-radius: 6px;
-    border: 1px solid rgba(74, 96, 122, 1);
+    outline: 3px solid rgba(74, 96, 122, 1);
     box-shadow: 0px 2px 18px 0px rgba(41, 41, 41, 0.1);
 
 }

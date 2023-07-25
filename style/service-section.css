@@ -98,27 +98,19 @@
     align-items: center;
 }
 
+.offers-list {
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 21px;
+    /* 150% */
+}
+
 .drop__window:hover .offer-list__arrow,
 .drop__window:focus .offer-list__arrow {
     transform: rotate(180deg);
-}
-
-.offer-buy {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 19px;
-
-    padding: 20px 75px;
-    border-radius: 6px;
-    border: 1px;
-
-    border-radius: 6px;
-    border: 1px solid var(--color-2, #4A607A);
-    background: var(--color-body, #FFF);
-    cursor: pointer;
-    /* norm */
-    box-shadow: 0px 2px 18px 0px rgba(41, 41, 41, 0.10);
-
 }
 
 .offers-sublist {
