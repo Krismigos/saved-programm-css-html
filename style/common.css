@@ -19,3 +19,42 @@
     line-height: 72px;
     color: #fff;
 }
+
+.callme-btn {
+    position: fixed;
+    bottom: 5vh;
+    right: 2vw;
+
+    border: none;
+    width: 200px;
+    height: 100px;
+
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    outline: 2px solid #08204600;
+    border-radius: 10px;
+    background-color: #3f7bd4;
+
+    cursor: pointer;
+    transition: outline linear 0.5s, width 0.5s;
+
+    animation: callBtn 100ms alternate-reverse infinite;
+}
+
+.callme-btn:hover {
+    outline: 2px solid #082046;
+    width: 300px;
+
+    animation: none;
+}
+
+@keyframes callBtn {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(1deg);
+    }
+}
